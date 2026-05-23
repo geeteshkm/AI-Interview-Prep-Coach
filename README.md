@@ -58,21 +58,24 @@ AI-Interview-Prep-Coach/
 ## 🚀 Setup & Run (A-Z)
 
 ### Step 1: Clone the Repository
+```
 git clone https://github.com/geeteshkm/AI-Interview-Prep-Coach.git
 cd AI-Interview-Prep-Coach
-
+```
 ### Step 2: Install Dependencies
+```
 pip install -r requirements.txt
-
+```
 ### Step 3: Add Your Gemini API Key
-
+```
 Create a new file called `.env` in the project root folder and add:
 GEMINI_API_KEY=your_gemini_api_key_here
 To get a free API key: Go to [aistudio.google.com](https://aistudio.google.com) → click **"Get API Key"** → copy it
-
+```
 ### Step 4: Run the App
+```
 streamlit run app.py
-
+```
 The app will open automatically in your browser at `http://localhost:8501`
 
 ---
