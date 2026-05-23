@@ -34,17 +34,19 @@ An AI-powered mock interview simulator built with Python, Streamlit, and Google 
 
 ## 📁 Project Structure
 
+```
 AI-Interview-Prep-Coach/
-├── app.py                  # Main Streamlit app — UI and flow
-├── chatbot.py              # Gemini API integration and prompt logic
-├── feedback_engine.py      # Answer evaluation and feedback generation
-├── resume_tips.py          # Resume improvement suggestions module
-├── question_bank.json      # HR and technical question database
-├── requirements.txt        # Python dependencies
-├── screenshots/            # App screenshots
-└── README.md               # This file
-
----
+│
+├── app.py                   # Main Streamlit app — UI and user flow
+├── chatbot.py               # Gemini API integration and prompt logic
+├── feedback_engine.py       # Answer evaluation and feedback formatting
+├── resume_tips.py           # Resume improvement suggestions module
+├── question_bank.json       # HR and technical question database
+├── requirements.txt         # Python dependencies
+├── .gitignore               # Excludes .env and cache files
+├── screenshots/             # App screenshots for README
+└── README.md                # This file
+```
 
 ## 📋 Prerequisites
 
